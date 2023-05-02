@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { BlackButton } from "../../BlackButton/BlackButton";
 import { MyMessage } from "../../MyMessage/MyMessage";
 import { UserOneMessage } from "../../UserOneMessage/UserOneMessage";
-import { UserTwoMessage } from "../../UserTwoMessage/UserOneMessage";
+// import { UserTwoMessage } from "../../UserTwoMessage/UserOneMessage";
 import { CustomImage } from "../../CustomImage/CustomImage";
 
 
