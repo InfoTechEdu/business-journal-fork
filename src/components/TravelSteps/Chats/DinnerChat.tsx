@@ -68,6 +68,10 @@ export const DinnerChat = ({
     }, scrollTimeout)
 
     setStepsDone(currentStep + 1)
+
+    fetch(
+      `https://functions.yandexcloud.net/d4ej111639ramkup2ett?event=GoingToCoworkerChat&date=${new Date()}`
+    ).then(response => {console.log("Event sent. Response: " + response)});
   };
 
 

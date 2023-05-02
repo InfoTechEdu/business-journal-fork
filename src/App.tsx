@@ -17,6 +17,11 @@ function App() {
     setTimeout(() => {
       stepOneRef.current?.scrollIntoView({ behavior: "smooth" });
     }, 500);
+
+    fetch(
+      `https://functions.yandexcloud.net/d4ej111639ramkup2ett?event=TravelStarted&date=${new Date()}`
+    ).then(response => {console.log("Event sent. Response: " + response)});
+
   }, []);
 
   const handleGoPractic = useCallback(() => {

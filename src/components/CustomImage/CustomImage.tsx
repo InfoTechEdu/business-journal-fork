@@ -9,6 +9,7 @@ export const CustomImage = ({ src = defaultImg }) => {
         src={src}
         alt="Marketing"
       />
+      
       {/* <p>Чтобы увеличить картинку туда сюда. Чтобы увеличить картинку туда сюда</p> */}
     </div>
   );
