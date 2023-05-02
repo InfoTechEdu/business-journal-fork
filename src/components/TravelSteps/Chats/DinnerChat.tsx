@@ -20,7 +20,7 @@ type Props = {
 
 export const DinnerChat = ({
   currentStep,
-  stepsDone,
+  // stepsDone,
   setStepsDone,
   meetingRef,
 }: Props) => {
@@ -29,12 +29,12 @@ export const DinnerChat = ({
   const [showContent, setShowContent] = useState(false);
   const [showContent2, setShowContent2] = useState(false);
   const [showContent3, setShowContent3] = useState(false);
-  const [showContent4, setShowContent4] = useState(false);
+  // const [showContent4, setShowContent4] = useState(false);
 
   const contentRef = useRef<HTMLDivElement>(null);
   const contentRef2 = useRef<HTMLDivElement>(null);
   const contentRef3 = useRef<HTMLDivElement>(null);
-  const contentRef4 = useRef<HTMLDivElement>(null);
+  // const contentRef4 = useRef<HTMLDivElement>(null);
 
   const handleStart = () => {
     setShowContent(true);
@@ -61,7 +61,7 @@ export const DinnerChat = ({
   };
 
   const handleStart4 = () => {
-    setShowContent4(true);
+    // setShowContent4(true);
 
     setTimeout(() => {
       meetingRef.current?.scrollIntoView({ behavior: 'smooth' });

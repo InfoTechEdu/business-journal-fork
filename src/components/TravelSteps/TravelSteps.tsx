@@ -1,7 +1,7 @@
 import s from "./TravelSteps.module.css";
 import { useRef, useState } from "react";
 import { DinnerChat } from "./Chats/DinnerChat";
-import { Practic } from "./Practic/Practic";
+// import { Practic } from "./Practic/Practic";
 import { ChatWithWorkers } from "./Chats/ChatWithWorkers";
 
 type Props = {
@@ -10,7 +10,8 @@ type Props = {
   handleComplete: () => void;
 };
 
-export const TravelSteps = ({ stepOneRef, practicRef, handleComplete }: Props) => {
+export const TravelSteps = ({ stepOneRef, handleComplete }: Props) => {
+// export const TravelSteps = ({ stepOneRef, practicRef, handleComplete }: Props) => {
   const [stepsDone, setStepsDone] = useState(0);
 
   const meetingRef = useRef<HTMLDivElement>(null);

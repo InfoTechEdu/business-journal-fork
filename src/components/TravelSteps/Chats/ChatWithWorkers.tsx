@@ -18,7 +18,7 @@ type Props = {
 
 export const ChatWithWorkers = ({
   currentStep,
-  stepsDone,
+  // stepsDone,
   setStepsDone,
   handleComplete,
   meetingRef
@@ -32,9 +32,7 @@ export const ChatWithWorkers = ({
   const [showContent5, setShowContent5] = useState(false);
   const [showContent6, setShowContent6] = useState(false);
   const [showContent7, setShowContent7] = useState(false);
-  const [showContent8, setShowContent8] = useState(false);
 
-  const contentRef = useRef<HTMLDivElement>(null);
   const contentRef2 = useRef<HTMLDivElement>(null);
   const contentRef3 = useRef<HTMLDivElement>(null);
   const contentRef4 = useRef<HTMLDivElement>(null);

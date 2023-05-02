@@ -1,5 +1,5 @@
 import s from "./Practic.module.css";
-import { useState } from "react";
+// import { useState } from "react";
 import { CustomImage } from "../../CustomImage/CustomImage";
 import targetImg from "../../../assets/targetImg.png";
 
@@ -11,7 +11,7 @@ type Props = {
 export const Practic = ({ 
     practicRef
 }: Props) => {
-  const [answerNumber, setAnswerNumber] = useState(-1);
+  // const [answerNumber, setAnswerNumber] = useState(-1);
 
   return (
     <div ref={practicRef} className={s.wrapper}>
