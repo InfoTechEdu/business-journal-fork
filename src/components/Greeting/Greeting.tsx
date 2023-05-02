@@ -37,7 +37,7 @@ export const Greeting = ({ handleStart }: Props) => {
       </p>
       <p>
         Казалось, между его мечтами и реальностью образовалась огромная
-        пропасть, и он никак не мог преодолеть эту пропасть.
+        пропасть, и он никак не мог ее преодолеть.
       </p>
       <BlackButton handleClick={handleStart} text="Войти в дом" />
     </section>
